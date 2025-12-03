@@ -1,0 +1,1479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1E632F18-F60D-AE77-3ECC-AA82B201449E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_2_9;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_PHYSICS_CUSTOM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.25</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>6000.2.9f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\AspectGenerator.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\JobEntityGenerator.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\Common.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="D:\Unity\HordeAi\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AMDModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.IdentifiersModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.InsightsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConsentModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.InAppPurchasingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.InAppPurchasingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LevelPlayModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.LevelPlayModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Abstractions">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@b5c6c30d646c\Plugins\System.IO.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cecil.Awesome">
+      <HintPath>Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@010f14fa5e2c\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@b5c6c30d646c\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@010f14fa5e2c\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Library\PackageCache\com.unity.barracuda@82bcfb51cf28\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Grpc.Core">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@b5c6c30d646c\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.TestingHelpers">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@b5c6c30d646c\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.collections@010f14fa5e2c\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{071D1B56-0300-FCAF-6387-EFE82922EBA6}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{546E5A9F-7773-1B9F-62FC-9B3AD0D81540}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{B0316B97-9F7C-56C2-5AA7-F66474EEB1A7}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Custom.Editor.csproj">
+      <Project>{46AA086B-8CC7-F645-55D0-FEA5DB815088}</Project>
+      <Name>Unity.Physics.Custom.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.csproj">
+      <Project>{9F4C1C23-1BC2-145A-009F-C54D612C2742}</Project>
+      <Name>Unity.Transforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.csproj">
+      <Project>{715D778D-35C1-B10F-5E24-7FFE3AFC13EA}</Project>
+      <Name>Unity.Mathematics.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{45466BBB-5426-D0E7-8C89-08265EB98440}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.csproj">
+      <Project>{C2A135EE-1637-4829-D8BA-90F0113BAA9E}</Project>
+      <Name>Unity.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
+      <Project>{C7D6808F-C965-5A06-4F30-B18C48FB46B3}</Project>
+      <Name>Unity.ML-Agents.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Linear.Sparse.csproj">
+      <Project>{A5619755-F035-8988-642C-C265A7540D7A}</Project>
+      <Name>Unity.Numerics.Linear.Sparse</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{811A0EFF-33A9-692D-D288-236B6EF2C45C}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Custom.csproj">
+      <Project>{7DEA377E-8C2B-8876-2763-0C517AAD6A22}</Project>
+      <Name>Unity.Physics.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Memory.csproj">
+      <Project>{FDA7F524-375B-D797-CEB7-19BBAAB6F0B6}</Project>
+      <Name>Unity.Numerics.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Hybrid.csproj">
+      <Project>{7CCBF8DD-8B8E-91D4-E7B8-6BA4949821B3}</Project>
+      <Name>Unity.Physics.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
+      <Project>{6822D959-236A-FBA8-06C2-3D65C2165C8E}</Project>
+      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Graphics.csproj">
+      <Project>{DE75C792-0F8F-C779-959F-D507B51373AA}</Project>
+      <Name>Unity.Entities.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{C75095C8-E32F-F11C-D159-233415C41F30}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{7F8711CE-4DD1-DB16-03DE-E6CCB5824F28}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.iOSBLAS.csproj">
+      <Project>{97380B33-907B-827B-B1BE-01E1C3D27025}</Project>
+      <Name>Unity.Barracuda.iOSBLAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.csproj">
+      <Project>{3DF32333-4E89-4ECF-7EEC-7332B8ED4025}</Project>
+      <Name>Unity.ScriptableBuildPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.Editor.csproj">
+      <Project>{D6ECCCFF-B31C-37FE-B952-21E9C9D476B0}</Project>
+      <Name>Unity.Scenes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Editor.Properties.csproj">
+      <Project>{7BEF32C2-6715-24E8-3B16-353790B83F91}</Project>
+      <Name>Unity.Entities.Editor.Properties</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{0415A4AA-817B-FF20-077F-16030F44345A}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{CA2A7634-9FD4-2294-CECF-97D007854772}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{C8A4510A-50A1-F2BE-70AA-72F9F1A0A687}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{BC410145-C32B-D5B9-2E0A-31B1331B1483}</Project>
+      <Name>PPv2URPConverters</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Graphics.Editor.csproj">
+      <Project>{BA4CFC54-9667-EFFD-A044-280A06BFBC9B}</Project>
+      <Name>Unity.Entities.Graphics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{C88544A9-CA4C-309B-7FAE-B83AF84969F0}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj">
+      <Project>{035E2409-5A20-88FF-0E75-D1217594EAD8}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj">
+      <Project>{52C0C7F4-67B7-494D-A293-3B74FDA3C47D}</Project>
+      <Name>Unity.RenderPipelines.Universal.2D.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
+      <Project>{4513E3A7-6B56-4DC8-4E80-35CEAFFF9A9E}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{CCF096CC-F3E5-D8CB-EA19-98005376167C}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.Editor.csproj">
+      <Project>{D4C294FB-69B0-55F9-0356-E804F207EBE4}</Project>
+      <Name>Unity.Barracuda.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{3CE2007F-DD3B-E549-8956-B592EF29255E}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{744AF368-8006-CD49-7993-540DA21214D8}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ALINEEditor.csproj">
+      <Project>{4F009026-4758-92F0-6B37-5892DA0ADC1A}</Project>
+      <Name>ALINEEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.csproj">
+      <Project>{1D7B5191-6EEA-5C26-D8E5-DAC0A1DFEE77}</Project>
+      <Name>Unity.Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.MacBLAS.csproj">
+      <Project>{740EC519-C0CE-8931-8284-17EBA2C6489B}</Project>
+      <Name>Unity.Barracuda.MacBLAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Editor.csproj">
+      <Project>{4F5074A1-D7C7-3EEA-CD20-A1FCFA345AFB}</Project>
+      <Name>Unity.Entities.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.UI.csproj">
+      <Project>{6CD86909-E604-816F-3796-452411E93676}</Project>
+      <Name>Unity.Entities.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.UI.Editor.csproj">
+      <Project>{133A74D8-CAEE-B210-08AC-8CB9EAFBE734}</Project>
+      <Name>Unity.Entities.UI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj">
+      <Project>{2735204C-5000-602A-6349-DD379CB812CE}</Project>
+      <Name>Unity.Rendering.LightTransport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{72C772E2-127D-CE2C-B191-6E7974592FEE}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{D2064B85-6828-4BA6-53F6-907AE3CABA3A}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.Hybrid.csproj">
+      <Project>{490D66A6-429B-27CA-B373-7E52660A2055}</Project>
+      <Name>Unity.Transforms.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.csproj">
+      <Project>{E5DDA531-DF86-19FB-A75C-52D425A8EA2E}</Project>
+      <Name>Unity.Barracuda</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{BFE7BED8-1B29-1F8A-35AE-4E54A1D97802}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{1C56181C-8AE3-C89A-3A6C-CA6AC87F8E5F}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.csproj">
+      <Project>{48B76F3A-B051-FA37-AC66-51D2632C6628}</Project>
+      <Name>Unity.Scenes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Random.csproj">
+      <Project>{138177E0-59E6-04D2-BAB4-84C671E15540}</Project>
+      <Name>Unity.Numerics.Random</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{EC5E0D89-101E-86E7-D9C1-724EA0901ED5}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Editor.csproj">
+      <Project>{0F280D1F-CD3C-2BC7-03D1-EDCE29FBD6CF}</Project>
+      <Name>Unity.Physics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{7914334A-0AC0-69BA-9297-B7763723A19C}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Profiling.Core.csproj">
+      <Project>{959D6A6C-CD52-D218-1FD7-7D9411BA15DD}</Project>
+      <Name>Unity.Profiling.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{3572265E-FEA5-8FA5-7A5E-5BAAE0850474}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="ALINEPackageToolsEditor.csproj">
+      <Project>{59A31564-F4F3-C234-77F6-AF14C19A5D06}</Project>
+      <Name>ALINEPackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{2A11F276-5E6B-6768-94CE-3A920D2C988E}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj">
+      <Project>{D3421645-6200-F937-391E-6C3CB8EEAF2F}</Project>
+      <Name>Unity.RenderPipelines.GPUDriven.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{C26C8860-7507-D0D1-C2F8-47C3395C0CB8}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Linear.Solvers.Lowlevel.csproj">
+      <Project>{7DFA318D-D32A-1F81-37D1-3BE4B29EEA78}</Project>
+      <Name>Unity.Numerics.Linear.Solvers.Lowlevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.Hybrid.csproj">
+      <Project>{3E768300-26CF-94D0-5ED6-A0283F6FAE9B}</Project>
+      <Name>Unity.Mathematics.Extensions.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.csproj">
+      <Project>{6CAE4638-9B55-35C5-DFBD-AFB34E97F1E5}</Project>
+      <Name>Unity.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{A60BBB34-FF4F-0B56-8408-230CE56C8AF9}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{1BC1CC6F-F84D-F671-B42B-E0BC8347DE39}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="ALINE.csproj">
+      <Project>{31FC3A10-5E7B-F4C6-D5A6-ECEE1BA26A1C}</Project>
+      <Name>ALINE</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{B3E10B8B-10A3-5AFB-1D21-04EC88915421}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Linear.csproj">
+      <Project>{5B9F42AC-BAFE-D804-BAF4-C0778BEFDF89}</Project>
+      <Name>Unity.Numerics.Linear</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.csproj">
+      <Project>{8425659E-2262-8365-12DD-1702F00F090E}</Project>
+      <Name>Unity.Entities.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.HybridComponents.csproj">
+      <Project>{953E2264-D90D-4D06-D7C0-656A699AAA64}</Project>
+      <Name>Unity.Entities.Hybrid.HybridComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.BurstBLAS.csproj">
+      <Project>{E18B60E0-6024-6584-C701-21E5723F08A7}</Project>
+      <Name>Unity.Barracuda.BurstBLAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Build.csproj">
+      <Project>{CABCC9D3-2DA4-B509-AF66-0EDAF2D40A2D}</Project>
+      <Name>Unity.Entities.Build</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{D2831C2C-B6FA-96F2-4F09-0E837813AFE7}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj">
+      <Project>{113154BA-BF79-E9B1-8BF0-460484D44018}</Project>
+      <Name>Unity.Rendering.LightTransport.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Numerics.Linear.Dense.csproj">
+      <Project>{9304182A-FDF2-C01C-8ABF-162DFFAE9745}</Project>
+      <Name>Unity.Numerics.Linear.Dense</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
+      <Project>{6062B9EF-F066-4757-6D20-5CF7E3E5BAF1}</Project>
+      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{2DB82001-3E9C-39FD-E761-21CCCEA66364}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Deformations.csproj">
+      <Project>{2B9F7352-A88C-93E2-8DDE-D8A3A5FF179B}</Project>
+      <Name>Unity.Deformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.csproj">
+      <Project>{4BDAE242-0BEE-5AD9-F729-8BEEEDA6C002}</Project>
+      <Name>Unity.ML-Agents</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.Editor.csproj">
+      <Project>{D2274895-57F0-536E-A338-30E35F03C4CD}</Project>
+      <Name>Unity.Collections.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.Editor.csproj">
+      <Project>{4D312618-33DE-F76A-EDFD-CC0E4332E8BB}</Project>
+      <Name>Unity.Serialization.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.ONNX.csproj">
+      <Project>{FD9D280B-3A1F-B74D-1D57-A8A120C53127}</Project>
+      <Name>Unity.Barracuda.ONNX</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
+      <Project>{4716B2BC-0606-11CC-5C37-7724201C915C}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{CFF89077-A29A-E9B3-774B-9E11074B5705}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{FDAD89A0-9456-3186-6D17-61C12D3ED0E6}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{9B06CAA0-88B2-C505-FB7C-BF0FEFD680A5}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

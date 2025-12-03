@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\HordeAi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\TargetTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Component\\TargetTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\component\\squadmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\squadmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\component\\spawnerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\spawnerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\authoring\\globalsettingsauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\globalsettingsauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|d:\\unity\\hordeai\\assets\\scripts\\monobehaviour\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\GlobalHordeConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Component\\GlobalHordeConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\authoring\\hordeunitauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\hordeunitauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\system\\hordemovementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\hordemovementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\monobehaviour\\hordeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\hordeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\component\\sensorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\sensorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDAE242-0BEE-5AD9-F729-8BEEEDA6C002}|Unity.ML-Agents.csproj|D:\\Unity\\HordeAi\\library\\packagecache\\com.unity.ml-agents@b5c6c30d646c\\runtime\\sensors\\rayperceptionsensorcomponent3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDAE242-0BEE-5AD9-F729-8BEEEDA6C002}|Unity.ML-Agents.csproj|solutionrelative:library\\packagecache\\com.unity.ml-agents@b5c6c30d646c\\runtime\\sensors\\rayperceptionsensorcomponent3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\monobehaviour\\hordebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\hordebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\system\\hordespawnersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\hordespawnersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|D:\\Unity\\HordeAi\\assets\\scripts\\system\\hordesensorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071D1B56-0300-FCAF-6387-EFE82922EBA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\hordesensorsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HordeSensorSystem.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeSensorSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\HordeSensorSystem.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeSensorSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\HordeSensorSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:29:08.863Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HordeSpawnerSystem.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeSpawnerSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\HordeSpawnerSystem.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeSpawnerSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\HordeSpawnerSystem.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAA3wEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:36:10.844Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HordeBridge.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\HordeBridge.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\HordeBridge.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\HordeBridge.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\HordeBridge.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:27:02.955Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RayPerceptionSensorComponent3D.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Library\\PackageCache\\com.unity.ml-agents@b5c6c30d646c\\Runtime\\Sensors\\RayPerceptionSensorComponent3D.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ml-agents@b5c6c30d646c\\Runtime\\Sensors\\RayPerceptionSensorComponent3D.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Library\\PackageCache\\com.unity.ml-agents@b5c6c30d646c\\Runtime\\Sensors\\RayPerceptionSensorComponent3D.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ml-agents@b5c6c30d646c\\Runtime\\Sensors\\RayPerceptionSensorComponent3D.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:20:12.848Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SensorConfig.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SensorConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\SensorConfig.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SensorConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\SensorConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:28:18.022Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HordeAgent.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\HordeAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\HordeAgent.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\HordeAgent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\HordeAgent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:25:59.458Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HordeMovementSystem.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeMovementSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\HordeMovementSystem.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\System\\HordeMovementSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\HordeMovementSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:25:14.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HordeUnitAuthoring.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\HordeUnitAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\HordeUnitAuthoring.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\HordeUnitAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\HordeUnitAuthoring.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:24:27.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalHordeConfig.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\GlobalHordeConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\GlobalHordeConfig.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\GlobalHordeConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\GlobalHordeConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:57:09.454Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrainingManager.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\TrainingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\TrainingManager.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Monobehaviour\\TrainingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\TrainingManager.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:01:22.8Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnvironmentAuthoring.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\EnvironmentAuthoring.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:16:39.796Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalSettingsAuthoring.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\GlobalSettingsAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\GlobalSettingsAuthoring.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Authoring\\GlobalSettingsAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\GlobalSettingsAuthoring.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:51:02.053Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TargetTag.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\TargetTag.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\TargetTag.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\TargetTag.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\TargetTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:00:18.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpawnerConfig.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SpawnerConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\SpawnerConfig.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SpawnerConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\SpawnerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:29:30.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SquadMember.cs",
+              "DocumentMoniker": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SquadMember.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\SquadMember.cs",
+              "ToolTip": "D:\\Unity\\HordeAi\\Assets\\Scripts\\Component\\SquadMember.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\SquadMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:23:57.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
